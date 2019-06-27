@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Novel Finds",
+    "description": "description",
+    "technology_used": ["React", "Redux", "Google Books API", "Ruby on Rails", "CSS"]
+  },
+  {
+    "title": "Plant Diary",
+    "description": "description",
+    "technology_used": ["Ruby on Rails", "CSS"]
+  },
+  {
+    "title": "Turbo Typing",
+    "description": "description",
+    "technology_used": ["JavaScript", "Ruby on Rails", "CSS"]
+  },
+  {
+    "title": "Data Visualization",
+    "description": "description",
+    "technology_used": ["React", "Less", "D3.js"]
+  },
+  {
+    "title": "Article Matching Demo",
+    "description": "description",
+    "technology_used": ["JavaScript", "Less", "JW Player Article Matching"]
+  },
+  {
+    "title": "Video Queue Demo",
+    "description": "description",
+    "technology_used": ["JavaScript", "Less", "JW Player", "jQuery"]
+  },
+  {
+    "title": "Segment Dictionary",
+    "description": "description",
+    "technology_used": ["React", "Less"]
+  },
+  {
+    "title": "Developer Site Redesign",
+    "description": "description",
+    "technology_used": ["JavaScript", "Less", "HTML"]
+  },
+  {
+    "title": "Video Profile Tool",
+    "description": "description",
+    "technology_used": ["React", "Less"]
+  }
+]

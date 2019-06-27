@@ -1,14 +1,36 @@
 import React from "react"
-import { Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
-// import Layout from "../components/layout"
-// import Image from "../components/image"
-// import SEO from "../components/seo"
+const renderProjects = props => (
+  <StaticQuery
+    query={graphql`
+      query {
+        allProjectsJson {
+          edges {
+            node {
+              title
+            }
+          }
+        }
+      }
+    `}
+    render={data =>
+      data.allProjectsJson.edges.map((project, i) => (
+        <div key={i}>{project.node.title}</div>
+      ))
+    }
+  />
+);
 
-const IndexPage = () => (
-  <div>
-    <p>Hello World</p>
-  </div>
-)
 
-export default IndexPage
+export default class IndexPage extends React.Component {
+
+  render() {
+    return (
+      <div>
+        {renderProjects()}
+      </div>
+    )
+  }
+
+}
