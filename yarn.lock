@@ -4715,10 +4715,10 @@ gatsby-react-router-scroll@^2.0.7:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-filesystem@^2.0.43:
-  version "2.0.43"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.43.tgz#0f5dcca737db63b57b4e6b3d922a9991246222da"
-  integrity sha512-z4HMnTcigoXtd3rRa/yQScgFJU5w13c9T5Yw/k58M+ysrnpFEG34VOxwot22mEuMXMM/Fdg5PwH4a54F3OQTcQ==
+gatsby-source-filesystem@^2.1.1:
+  version "2.1.1"
+  resolved "https://npm-registry.longtailvideo.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.1.tgz#5f19c527b4b6c43a9f46da8be5b9cc15cb142787"
+  integrity sha512-B01of7+bvpyaJz6uF4mM/kVfZrkxB28kfg+csHE9Ro8w+4+qGAFG/HKYGOCQxeKNL/yI6Uw8KeKLMW14KVD0UA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     better-queue "^3.8.7"
@@ -4756,6 +4756,14 @@ gatsby-telemetry@^1.0.12:
     stack-trace "^0.0.10"
     stack-utils "1.0.2"
     uuid "3.3.2"
+
+gatsby-transformer-json@^2.2.0:
+  version "2.2.0"
+  resolved "https://npm-registry.longtailvideo.com/gatsby-transformer-json/-/gatsby-transformer-json-2.2.0.tgz#a27eb4dce9face97f083a15fb275b7e9bfe86242"
+  integrity sha512-8eOCldgrIBSyrm+RvbX/Or1TfHiqKQP7eJROt8j7RTOY5qzXliA3W2FsItcN68fI4sktVPZ12+gyqtndFE8XKQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    bluebird "^3.5.0"
 
 gatsby-transformer-sharp@^2.1.21:
   version "2.1.21"
