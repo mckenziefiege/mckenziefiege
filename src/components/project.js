@@ -1,36 +1,16 @@
-// import React from "react"
-// import { StaticQuery, graphql } from "gatsby"
-//
-// const renderProjects = props => (
-//   <StaticQuery
-//     query={graphql`
-//       query {
-//         allProjectsJson {
-//           edges {
-//             node {
-//               title
-//             }
-//           }
-//         }
-//       }
-//     `}
-//     render={data =>
-//       data.allProjectsJson.edges.map((project, i) => (
-//         <div key={i}>{project.node.title}</div>
-//       ))
-//     }
-//   />
-// );
-//
-//
-// export default class IndexPage extends React.Component {
-//
-//   render() {
-//     return (
-//       <div>
-//         {renderProjects()}
-//       </div>
-//     )
-//   }
-//
-// }
+import React, { Component} from 'react';
+
+import { graphql } from 'gatsby';
+
+class Project extends Component {
+
+  render() {
+    return (
+      <div className="project">
+        project
+      </div>
+    )
+  }
+}
+
+export default Project;

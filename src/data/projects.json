@@ -1,47 +1,110 @@
 [
   {
+    "type": "Personal",
     "title": "Novel Finds",
-    "description": "description",
-    "technology_used": ["React", "Redux", "Google Books API", "Ruby on Rails", "CSS"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "React",
+      "Redux",
+      "Google Books API",
+      "Ruby on Rails",
+      "CSS"
+    ],
+    "images": [],
+    "github": "https://github.com/mckenziefiege/book_club_frontend"
   },
   {
+    "type": "Personal",
     "title": "Plant Diary",
-    "description": "description",
-    "technology_used": ["Ruby on Rails", "CSS"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "Ruby on Rails",
+      "CSS"
+    ],
+    "images": [],
+    "github": "https://github.com/mckenziefiege/plant_diary"
   },
   {
+    "type": "Personal",
     "title": "Turbo Typing",
-    "description": "description",
-    "technology_used": ["JavaScript", "Ruby on Rails", "CSS"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "JavaScript",
+      "Ruby on Rails",
+      "CSS"
+    ],
+    "images": [],
+    "github": "https://github.com/mckenziefiege/turbo-typing-revamped"
   },
   {
+    "type": "Professional",
     "title": "Data Visualization",
-    "description": "description",
-    "technology_used": ["React", "Less", "D3.js"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "React",
+      "Less",
+      "D3.js"
+    ],
+    "images": [],
+    "github": null
   },
   {
+    "type": "Professional",
     "title": "Article Matching Demo",
-    "description": "description",
-    "technology_used": ["JavaScript", "Less", "JW Player Article Matching"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "JavaScript",
+      "Less",
+      "JW Player Article Matching"
+    ],
+    "images": [],
+    "github": null
   },
   {
+    "type": "Professional",
     "title": "Video Queue Demo",
-    "description": "description",
-    "technology_used": ["JavaScript", "Less", "JW Player", "jQuery"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "JavaScript",
+      "Less",
+      "JW Player",
+      "jQuery"
+    ],
+    "images": [],
+    "github": null
   },
   {
+    "type": "Professional",
     "title": "Segment Dictionary",
-    "description": "description",
-    "technology_used": ["React", "Less"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "React",
+      "Less"
+    ],
+    "images": [],
+    "github": null
   },
   {
+    "type": "Professional",
     "title": "Developer Site Redesign",
-    "description": "description",
-    "technology_used": ["JavaScript", "Less", "HTML"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "JavaScript",
+      "Less",
+      "HTML"
+    ],
+    "images": [],
+    "github": null
   },
   {
+    "type": "Professional",
     "title": "Video Profile Tool",
-    "description": "description",
-    "technology_used": ["React", "Less"]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "React",
+      "Less"
+    ],
+    "images": [],
+    "github": null
   }
 ]
