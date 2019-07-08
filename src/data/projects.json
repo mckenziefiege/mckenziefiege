@@ -10,7 +10,7 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "images": [],
+    "src": "../images/projects/bookclub1.png",
     "github": "https://github.com/mckenziefiege/book_club_frontend"
   },
   {
@@ -21,7 +21,7 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "images": [],
+    "src": "",
     "github": "https://github.com/mckenziefiege/plant_diary"
   },
   {
@@ -33,7 +33,7 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "images": [],
+    "src": "",
     "github": "https://github.com/mckenziefiege/turbo-typing-revamped"
   },
   {
@@ -45,7 +45,7 @@
       "Less",
       "D3.js"
     ],
-    "images": [],
+    "src": "",
     "github": null
   },
   {
@@ -57,7 +57,7 @@
       "Less",
       "JW Player Article Matching"
     ],
-    "images": [],
+    "src": "",
     "github": null
   },
   {
@@ -70,7 +70,7 @@
       "JW Player",
       "jQuery"
     ],
-    "images": [],
+    "src": "",
     "github": null
   },
   {
@@ -81,7 +81,7 @@
       "React",
       "Less"
     ],
-    "images": [],
+    "src": "",
     "github": null
   },
   {
@@ -93,7 +93,7 @@
       "Less",
       "HTML"
     ],
-    "images": [],
+    "src": "",
     "github": null
   },
   {
@@ -104,7 +104,7 @@
       "React",
       "Less"
     ],
-    "images": [],
+    "src": "",
     "github": null
   }
 ]

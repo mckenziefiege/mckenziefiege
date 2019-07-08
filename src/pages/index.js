@@ -1,33 +1,19 @@
 import React from "react"
-import { graphql } from "gatsby"
 
+// Components
 import About from '../components/about.js'
 import HomeHero from '../components/homeHero.js'
+import NavBar from '../components/navBar.js'
 
 export default class IndexPage extends React.Component {
 
   render() {
     return (
       <div>
+        <NavBar />
         <HomeHero />
         <About />
       </div>
     )
   }
-}
-
-export const pageQuery = graphql`
-  query MyQuery {
-    allProjectsJson {
-  		edges {
-  			node {
-  				title
-          description
-          technology_used
-          type
-          github
-        }
-      }
-    }
-  }
-`;
+};
