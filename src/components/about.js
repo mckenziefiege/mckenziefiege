@@ -4,9 +4,11 @@ import { StaticQuery, graphql } from "gatsby"
 const About = ({ data }) => (
   <div>
     <div>
+      <h2>About Me</h2>
       <p>{data.description}</p>
     </div>
     <div>
+      <h2>Technical Skills</h2>
       {data.skills.map(skill => <p key={skill}>{skill}</p>)}
     </div>
     <div>
