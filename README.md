@@ -1,4 +1,4 @@
-McKenzie Fiege Dev Portfolio
+# McKenzie Fiege Dev Portfolio
 
 ## 🚀 Quick start
 
