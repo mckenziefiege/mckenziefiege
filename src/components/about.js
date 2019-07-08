@@ -1,11 +1,13 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
+import MediaLinks from './mediaLinks.js'
+
 const About = ({ data }) => (
   <div>
     <div>
-      <h2>About Me</h2>
       <p>{data.description}</p>
+      <MediaLinks />
     </div>
     <div>
       <h2>Technical Skills</h2>

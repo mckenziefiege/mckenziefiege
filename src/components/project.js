@@ -1,13 +1,11 @@
 import React, { Component} from 'react';
 
-import { graphql } from 'gatsby';
-
 class Project extends Component {
 
   render() {
     return (
       <div className="project">
-        project
+        a project page!
       </div>
     )
   }
