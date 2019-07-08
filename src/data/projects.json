@@ -10,8 +10,9 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "src": "../images/projects/bookclub1.png",
-    "github": "https://github.com/mckenziefiege/book_club_frontend"
+    "src": "projects/bookclub2.png",
+    "github": "https://github.com/mckenziefiege/book_club_frontend",
+    "slug": "novel-finds"
   },
   {
     "type": "Personal",
@@ -21,8 +22,9 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "src": "",
-    "github": "https://github.com/mckenziefiege/plant_diary"
+    "src": "projects/plantdiary2.png",
+    "github": "https://github.com/mckenziefiege/plant_diary",
+    "slug": "plant-diary"
   },
   {
     "type": "Personal",
@@ -33,8 +35,9 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "src": "",
-    "github": "https://github.com/mckenziefiege/turbo-typing-revamped"
+    "src": "projects/turbotyping1.png",
+    "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
+    "slug": "turbo-typing"
   },
   {
     "type": "Professional",
@@ -45,8 +48,9 @@
       "Less",
       "D3.js"
     ],
-    "src": "",
-    "github": null
+    "src": "projects/data-vis.png",
+    "github": null,
+    "slug": "data-visualization"
   },
   {
     "type": "Professional",
@@ -57,12 +61,13 @@
       "Less",
       "JW Player Article Matching"
     ],
-    "src": "",
-    "github": null
+    "src": "projects/article-matching.png",
+    "github": null,
+    "slug": "article-matching-demo"
   },
   {
     "type": "Professional",
-    "title": "Video Queue Demo",
+    "title": "Video Queue Prototype",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "technology_used": [
       "JavaScript",
@@ -70,8 +75,9 @@
       "JW Player",
       "jQuery"
     ],
-    "src": "",
-    "github": null
+    "src": "projects/player-queue.png",
+    "github": null,
+    "slug": "video-queue-prototype"
   },
   {
     "type": "Professional",
@@ -81,8 +87,9 @@
       "React",
       "Less"
     ],
-    "src": "",
-    "github": null
+    "src": "projects/segment-dictionary.png",
+    "github": null,
+    "slug": "segment-dictionary"
   },
   {
     "type": "Professional",
@@ -93,8 +100,9 @@
       "Less",
       "HTML"
     ],
-    "src": "",
-    "github": null
+    "src": "projects/developer-redesign.png",
+    "github": null,
+    "slug": "developer-site-redesign"
   },
   {
     "type": "Professional",
@@ -104,7 +112,8 @@
       "React",
       "Less"
     ],
-    "src": "",
-    "github": null
+    "src": "projects/video-profile-tool.png",
+    "github": null,
+    "slug": "video-profile-tool"
   }
 ]

@@ -1,54 +1,43 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
 
-import NavBar from '../components/navBar.js'
+import Link from 'gatsby-link';
+
+import NavBar from '../components/navBar.js';
+import Image from '../components/image.js';
 
 export default class Projects extends React.Component {
 
   render() {
-    const nodes = this.props.data.allImageSharp.edges
+    const nodes = this.props.data.allProjectsJson.edges
 
-    const gallery = nodes.map(obj => <img height="300" src={obj.node.original.src}/>)
+    const titles = nodes.map(obj => <Link to={obj.node.slug}><Image src={obj.node.src}/></Link>)
 
     return (
       <div>
         <NavBar />
         <p>My Projects</p>
-        {gallery}
+        {titles}
+        <Image />
       </div>
     )
   }
 }
 
-// export const pageQuery = graphql`
-//   query MyQuery {
-//     allProjectsJson {
-//   		edges {
-//   			node {
-//   				title
-//           description
-//           technology_used
-//           type
-//           github
-//           src {
-//            dir
-//          }
-//         }
-//       }
-//     }
-//   }
-// `;
-
 export const pageQuery = graphql`
-query MyQuery {
-  allImageSharp {
-    edges {
-      node {
-        original {
+  query MyQuery {
+    allProjectsJson {
+  		edges {
+  			node {
+  				title
+          description
+          technology_used
+          type
+          github
+          slug
           src
         }
       }
     }
   }
-}
 `;
