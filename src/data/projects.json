@@ -10,7 +10,7 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "src": "src/images/projects/bookclub2.png",
+    "src": "projects/bookclub2.png",
     "github": "https://github.com/mckenziefiege/book_club_frontend",
     "slug": "novel-finds"
   },
@@ -22,7 +22,7 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "src": "src/images/projects/plantdiary2.png",
+    "src": "projects/plantdiary2.png",
     "github": "https://github.com/mckenziefiege/plant_diary",
     "slug": "plant-diary"
   },
@@ -35,7 +35,7 @@
       "Ruby on Rails",
       "CSS"
     ],
-    "src": "src/images/projects/turbotyping1.png",
+    "src": "projects/turbotyping1.png",
     "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
     "slug": "turbo-typing"
   },
@@ -48,7 +48,7 @@
       "Less",
       "D3.js"
     ],
-    "src": "src/images/projects/data-vis.png",
+    "src": "projects/data-vis.png",
     "github": null,
     "slug": "data-visualization"
   },
@@ -61,7 +61,7 @@
       "Less",
       "JW Player Article Matching"
     ],
-    "src": "src/images/projects/article-matching.png",
+    "src": "projects/article-matching.png",
     "github": null,
     "slug": "article-matching-demo"
   },
@@ -75,7 +75,7 @@
       "JW Player",
       "jQuery"
     ],
-    "src": "src/images/projects/player-queue.png",
+    "src": "projects/player-queue.png",
     "github": null,
     "slug": "video-queue-prototype"
   },
@@ -87,7 +87,7 @@
       "React",
       "Less"
     ],
-    "src": "src/images/projects/segment-dictionary.png",
+    "src": "projects/segment-dictionary.png",
     "github": null,
     "slug": "segment-dictionary"
   },
@@ -100,7 +100,7 @@
       "Less",
       "HTML"
     ],
-    "src": "src/images/projects/developer-redesign.png",
+    "src": "projects/developer-redesign.png",
     "github": null,
     "slug": "developer-site-redesign"
   },
@@ -112,7 +112,7 @@
       "React",
       "Less"
     ],
-    "src": "src/images/projects/video-profile-tool.png",
+    "src": "projects/video-profile-tool.png",
     "github": null,
     "slug": "video-profile-tool"
   }
