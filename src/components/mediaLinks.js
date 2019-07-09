@@ -1,8 +1,10 @@
 import React from "react"
 
-const MediaLinks = () => (
+const MediaLinks = (props) => (
+
   <div>
-    <h1>links!</h1>
+    <h1>links!{console.log(props)}</h1>
+    {props.links.map(obj => <a key={obj.site} href={obj.url}>{obj.site}</a>)}
   </div>
 )
 
