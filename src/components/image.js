@@ -18,6 +18,7 @@ const Image = ({ src, ...props }) => {
       }
     }
   `)
+
   const match = useMemo(() => (
     data.allFile.nodes.find(({ relativePath }) => src === relativePath)
   ), [ data, src ]);
