@@ -2,7 +2,7 @@ import React from "react"
 
 const Github = () => {
   return (
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"x="0px" y="0px"
+    <svg className="media-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"x="0px" y="0px"
     	 viewBox="-91 49.217 56.693 56.693" enableBackground="new -91 49.217 56.693 56.693">
     <g>
     	<path fillRule="evenodd" clipRule="evenodd" fill="#231F20" d="M-62.2607,54.1551c-13.6897,0-24.7909,11.0987-24.7909,24.7909

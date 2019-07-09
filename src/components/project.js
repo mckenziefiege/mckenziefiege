@@ -13,16 +13,18 @@ class Project extends Component {
 
     const image = arr.find(obj => obj.node.slug === slug).node
 
-    const techUsed = image.technology_used.map(tech => <div>{tech}</div>)
+    const techUsed = image.technology_used.map(tech => <p>{tech}</p>)
 
     return (
-      <div>
+      <div className="project">
         <NavBar />
-        <div className="project">
-          <h1>{image.title}</h1>
-          <p>{image.description}</p>
-          <p>{techUsed}</p>
-          <a href={image.github}>Github</a>
+        <div className="project__page">
+          <h1 className="project__title">{image.title}</h1>
+          <p className="project__description">{image.description}</p>
+          <div className="project__tech">
+            {techUsed}
+          </div>
+          <a className="project__github" href={image.github}>Github</a>
           <Image src={image.src}/>
         </div>
       </div>

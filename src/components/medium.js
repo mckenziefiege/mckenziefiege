@@ -2,7 +2,7 @@ import React from "react"
 
 const Medium = () => {
   return (
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+    <svg className="media-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
     	 width="56.6934px" height="56.6934px" viewBox="0 0 56.6934 56.6934">
     <path d="M28.6253,4.165c-13.5996,0-24.625,11.0234-24.625,24.623c0,13.5997,11.0254,24.625,24.625,24.625
     	c13.5986,0,24.624-11.0253,24.624-24.625C53.2493,15.1883,42.2239,4.165,28.6253,4.165z M23.0709,40.5321

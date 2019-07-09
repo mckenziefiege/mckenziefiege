@@ -7,8 +7,7 @@ import Linkedin from './linkedin.js'
 
 const MediaLinks = (props) => (
 
-  <div>
-    <h1>links!</h1>
+  <div className="media-links">
     <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@mckenziefiege"><Medium /></a>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/mckenziefiege"><Github /></a>
     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mckenziefiege/"><Instagram /></a>
