@@ -2,7 +2,7 @@ import React from "react"
 
 const Instagram = () => {
   return (
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    <svg className="media-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
     	 width="56.7px" height="56.7px" viewBox="0 0 56.7 56.7">
     <g>
     	<circle cx="28.1" cy="30" r="4.4"/>

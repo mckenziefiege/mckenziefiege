@@ -1,8 +1,6 @@
 import React from "react"
 
-// Components
 import About from '../components/about.js'
-import HomeHero from '../components/homeHero.js'
 import NavBar from '../components/navBar.js'
 
 export default class IndexPage extends React.Component {
@@ -11,7 +9,6 @@ export default class IndexPage extends React.Component {
     return (
       <div>
         <NavBar />
-        <HomeHero />
         <About />
       </div>
     )

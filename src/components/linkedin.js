@@ -2,7 +2,7 @@ import React from "react"
 
 const Linkedin = () => {
   return (
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    <svg className="media-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
     	 width="56.693px" height="56.693px" viewBox="0 0 56.693 56.693" enableBackground="new 0 0 56.693 56.693">
     <g>
     	<path d="M28.347,5.155c-13.6,0-24.625,11.025-24.625,24.625c0,13.602,11.025,24.625,24.625,24.625

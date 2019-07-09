@@ -1,9 +1,9 @@
 import React from "react"
 
 const HomeHero = () => (
-  <div>
-    <h1>McKenzie Fiege</h1>
-    <h2>Full Stack Developer</h2>
+  <div className="home-hero">
+    <h1 className="home-hero__name">McKenzie Fiege</h1>
+    <h2 className="home-hero__title">Full Stack Developer</h2>
   </div>
 )
 

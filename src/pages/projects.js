@@ -19,7 +19,10 @@ const ProjectImage = ({node}) => {
 const Projects = ({data}) => (
   <div>
     <NavBar />
-    {data.allProjectsJson.edges.map((edge) => <ProjectImage key={edge.node.title} node={edge.node} />)}
+    <div className="projects">
+      {data.allProjectsJson.edges.map((edge) => <ProjectImage key={edge.node.title} node={edge.node} />)}
+    </div>
+
   </div>
 );
 
