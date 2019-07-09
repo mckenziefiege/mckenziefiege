@@ -13,27 +13,5 @@
     "Sass",
     "D3.js",
     "GraphQL"
-  ],
-  "media": [
-    {
-      "site": "GitHub",
-      "url": "https://github.com/mckenziefiege",
-      "icon": "src/images/svg/41-github.svg"
-    },
-    {
-      "site": "LinkedIn",
-      "url": "https://www.linkedin.com/in/mckenziefiege",
-      "icon": "src/images/svg/11-linkedin.svg"
-    },
-    {
-      "site": "Instagram",
-      "url": "https://www.instagram.com/mckenziefiege/",
-      "icon": "src/images/svg/38-instagram.svg"
-    },
-    {
-      "site": "Blog",
-      "url": "https://medium.com/@mckenziefiege",
-      "icon": "src/images/svg/53-medium.svg"
-    }
   ]
 }

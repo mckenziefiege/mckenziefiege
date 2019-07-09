@@ -6,22 +6,24 @@ import Link from 'gatsby-link';
 import NavBar from '../components/navBar.js';
 import Image from '../components/image.js';
 
-export default class Projects extends React.Component {
 
-  render() {
-    const nodes = this.props.data.allProjectsJson.edges
+const ProjectImage = ({node}) => {
 
-    const gallery = nodes.map(obj => <Link key={obj.node.slug} to={obj.node.slug}><Image src={obj.node.src}/></Link>)
+  return (
+    <div>
+      <Link key={node.slug} to={node.slug}><Image src={node.src}/></Link>
+    </div>
+  );
+};
 
-    return (
-      <div>
-        <NavBar />
-        <p>My Projects</p>
-          {gallery}
-      </div>
-    )
-  }
-}
+const Projects = ({data}) => (
+  <div>
+    <NavBar />
+    {data.allProjectsJson.edges.map((edge) => <ProjectImage key={edge.node.title} node={edge.node} />)}
+  </div>
+);
+
+export default Projects;
 
 export const pageQuery = graphql`
   query MyQuery {
