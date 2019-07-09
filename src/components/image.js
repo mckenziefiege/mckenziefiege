@@ -1,21 +1,32 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import safeGet from "lodash.get"
+import React, { useMemo } from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-const Image = () => {
+const Image = ({ src, ...props }) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "projects/article-matching.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+      allFile( filter: { internal: { mediaType: { regex: "/image/" } } } ) {
+        nodes {
+          relativePath
+          childImageSharp {
+            fluid(maxWidth: 540) {
+              ...GatsbyImageSharpFluid_noBase64
+            }
           }
         }
       }
     }
   `)
+  const match = useMemo(() => (
+    data.allFile.nodes.find(({ relativePath }) => src === relativePath)
+  ), [ data, src ]);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  const fluid = safeGet(match, 'childImageSharp.fluid');
+
+  return fluid ? (
+    <Img fluid={fluid} {...props} />
+  ) : null
 }
 
 export default Image

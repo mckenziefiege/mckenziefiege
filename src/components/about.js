@@ -7,14 +7,11 @@ const About = ({ data }) => (
   <div>
     <div>
       <p>{data.description}</p>
-      <MediaLinks />
+      <MediaLinks links={data.media}/>
     </div>
     <div>
       <h2>Technical Skills</h2>
       {data.skills.map(skill => <p key={skill}>{skill}</p>)}
-    </div>
-    <div>
-      {data.media.map(obj => <a key={obj.site} href={obj.url}>{obj.site}</a>)}
     </div>
   </div>
 )
