@@ -1,61 +1,123 @@
+@textFont: 'Playfair Display', serif;
+@headingFont: 'DM Serif Display', serif;
+
+// colors
+// #FE6959
+
+body {
+  padding: 20px;
+  margin: 0 auto;
+  width: 1100px;
+  color: #333;
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: #333;
 }
 
 .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: @textFont;
 
   &__link {
-
+    margin: 20px;
   }
 }
 
 .home-hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
   &__name {
-
+    margin: 5px;
+    font-size: 55px;
+    font-family: @headingFont;
+    letter-spacing: 5px;
   }
 
   &__title {
-
+    margin: 5px;
+    font-size: 30px;
+    font-family: @headingFont;
+    letter-spacing: 2px;
   }
 }
 
+// Change color of icons?
 .media-svg {
-
+  height: 50px;
+  width: 50px;
+  margin: 10px;
 }
 
 .media-links {
-  
+
 }
 
 .about {
 
-  &__description {
+  &__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+  }
 
+  &__description {
+    width: 600px;
+    text-align: center;
+    font-family: @textFont;
+    line-height: 35px;
+  }
+
+  &__hero-and-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   &__title {
-
+    font-size: 30px;
+    font-family: @headingFont;
   }
 
   &__skills {
-
+    line-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    align-items: center;
   }
 
   &__skill {
-
+    margin: 10px;
+    font-family: @textFont;
   }
 }
 
+.project-image {
+
+}
+
 .project {
+
+}
+
+.project {
+  font-family: @textFont;
 
   &__page {
 
   }
 
-  &__tite {
-
+  &__title {
+    font-family: @headingFont;
+    font-size: 30px;
   }
 
   &__description {

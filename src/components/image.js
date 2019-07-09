@@ -10,8 +10,8 @@ const Image = ({ src, ...props }) => {
         nodes {
           relativePath
           childImageSharp {
-            fluid(maxWidth: 540) {
-              ...GatsbyImageSharpFluid_noBase64
+            fixed {
+              ...GatsbyImageSharpFixed
             }
           }
         }
@@ -23,10 +23,10 @@ const Image = ({ src, ...props }) => {
     data.allFile.nodes.find(({ relativePath }) => src === relativePath)
   ), [ data, src ]);
 
-  const fluid = safeGet(match, 'childImageSharp.fluid');
+  const fixed = safeGet(match, 'childImageSharp.fixed');
 
-  return fluid ? (
-    <Img fluid={fluid} {...props} />
+  return fixed ? (
+    <Img className="project-image" fixed={fixed} {...props} />
   ) : null
 }
 

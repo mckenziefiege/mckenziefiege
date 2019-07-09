@@ -26,6 +26,8 @@ module.exports = {
       options: {
         fonts: [
           `DM Serif Display`,
+          `Lato`,
+          `Playfair Display`,
           `Open Sans`,
           `Crimson Text`,
           `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
