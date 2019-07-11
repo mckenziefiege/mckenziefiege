@@ -13,7 +13,7 @@ class Project extends Component {
 
     const image = arr.find(obj => obj.node.slug === slug).node
 
-    const techUsed = image.technology_used.map(tech => <p>{tech}</p>)
+    const techUsed = image.technology_used.map((tech, i) => <p>{tech} {image.technology_used.length - 1 !== i ? "|" : ""}</p>)
 
     return (
       <div className="project">
