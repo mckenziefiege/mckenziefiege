@@ -1,20 +1,46 @@
 @textFont: 'Playfair Display', serif;
-@headingFont: 'DM Serif Display', serif;
+@headingFont: 'Homemade Apple', cursive;
 
 // colors
 // #FE6959
+// #FAA275
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 body {
   padding: 20px;
   margin: 0 auto;
   width: 1100px;
-  color: #333;
+  color: black;
   cursor: default;
+  // background: linear-gradient(270deg, #FBD786, #C6FFDD, #f7797d);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: black;
+  font-weight: bold;
 }
 
 .nav {
@@ -22,6 +48,8 @@ a {
   justify-content: center;
   align-items: center;
   font-family: @textFont;
+
+
 
   &__link {
     margin: 20px;
@@ -32,19 +60,20 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 20px;
 
   &__name {
     margin: 5px;
     font-size: 55px;
     font-family: @headingFont;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
   }
 
   &__title {
     margin: 5px;
     font-size: 30px;
-    font-family: @headingFont;
-    letter-spacing: 2px;
+    font-family: @textFont;
+    letter-spacing: 5px;
   }
 }
 
@@ -53,6 +82,8 @@ a {
   height: 50px;
   width: 50px;
   margin: 10px;
+
+  // fill: #eee;
 }
 
 .media-links {
@@ -65,7 +96,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px;
+    margin: 30px;
   }
 
   &__description {
@@ -73,6 +104,7 @@ a {
     text-align: center;
     font-family: @textFont;
     line-height: 35px;
+    font-weight: bold;
   }
 
   &__hero-and-links {
@@ -89,10 +121,12 @@ a {
 
   &__skills {
     line-height: 35px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    font-weight: bold;
   }
 
   &__skill {
@@ -102,13 +136,14 @@ a {
 }
 
 .project-image {
-
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   // grid-auto-flow: column;
+  grid-gap: 10px;
   align-items: center;
 
 }
@@ -125,7 +160,8 @@ a {
 
   &__title {
     font-family: @headingFont;
-    font-size: 30px;
+    font-size: 40px;
+    letter-spacing: 2px;
   }
 
   &__description {
