@@ -1,5 +1,5 @@
-@textFont: 'Playfair Display', serif;
-@headingFont: 'Homemade Apple', cursive;
+@textFont: 'Open Sans', sans-serif;
+@headingFont: 'DM Serif Display', serif;
 
 // colors
 // #FE6959
@@ -11,20 +11,20 @@ canvas {
     background-color: white;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+body {
+  margin: 0;
+  color: #323638;
 }
 
-.portfolio-button {
-  border-radius: 100px;
-  // border: 1px solid;
-  padding: 20px;
-  margin: 20px;
-  display: block;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+a {
+  text-decoration: none;
+  color: #323638;
+}
 
+.index-page {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
 }
 
 .nav {
@@ -33,10 +33,10 @@ a {
   align-items: center;
   font-family: @textFont;
 
-
-
   &__link {
     margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
   }
 }
 
@@ -44,44 +44,43 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  position: relative;
 
   &__name {
     margin: 5px;
-    font-size: 55px;
+    font-size: 50px;
     font-family: @headingFont;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     background-image: linear-gradient(45deg,
-                   #7794ff,
-                   #44107A,
-                   #FF1361,
-                   #FFF800);
+                   #FE6959,
+                   #FF9000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   }
 
   &__title {
     margin: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: @textFont;
     letter-spacing: 5px;
-    // background-image: linear-gradient(45deg,
-    //                #7794ff,
-    //                #44107A,
-    //                #FF1361,
-    //                #FFF800);
-    //                -webkit-background-clip: text;
-    //                -webkit-text-fill-color: transparent;
+    transform: translate(85px, 60px);
+    position: absolute;
+    font-weight: bold;
   }
 }
 
-// Change color of icons?
 .media-svg {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   margin: 10px;
+  transition: all .5s;
+  fill: #323638;
 
-  // fill: #eee;
+  &:hover {
+    fill: #FE6959;
+
+  }
 }
 
 .media-links {
@@ -95,6 +94,8 @@ a {
     justify-content: space-around;
     align-items: center;
     margin: 30px;
+    width: 950px;
+    margin: 0 auto;
   }
 
   &__description {
@@ -115,28 +116,18 @@ a {
   &__title {
     font-size: 30px;
     font-family: @headingFont;
-    // background-image: linear-gradient(45deg,
-    //                #7794ff,
-    //                #44107A,
-    //                #FF1361,
-    //                #FFF800);
-    //                -webkit-background-clip: text;
-    //                -webkit-text-fill-color: transparent;
   }
 
   &__skills {
-    line-height: 35px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
-    grid-row-gap: 10px;
-    grid-column-gap: 20px;
-    font-weight: bold;
   }
 
   &__skill {
     margin: 10px;
     font-family: @textFont;
+    font-weight: bold;
   }
 }
 
