@@ -9,6 +9,7 @@ const About = ({ data }) => (
     <div className="about__hero-and-links">
       <HomeHero />
       <MediaLinks links={data.media}/>
+    
     </div>
 
 
@@ -17,13 +18,13 @@ const About = ({ data }) => (
       <p className="about__description">{data.description}</p>
     </div>
 
-
     <div className="about__flex">
       <div className="about__skills">
         {data.skills.map(skill => <span className="about__skill" key={skill}>{skill}</span>)}
       </div>
       <h2 className="about__title">technical skills</h2>
     </div>
+
 
   </div>
 )
