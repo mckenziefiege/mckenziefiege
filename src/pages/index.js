@@ -9,18 +9,18 @@ export default class IndexPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="index-page">
         <Particles
              params={{
                  "particles": {
                      "number": {
-                         "value": 50,
+                         "value": 30,
                          "density": {
                              "enable": true
                          }
                      },
                      "color": {
-                         "value": "#19c5b1"
+                         "value": ["#FF9000", "#ACF39D", "#FE6959"]
                      },
                      "shape": {
                          "type": "circle",
@@ -29,17 +29,17 @@ export default class IndexPage extends React.Component {
                          }
                      },
                      "opacity": {
-                         "value": 0.4008530152163807,
+                         "value": .9,
                          "random": false,
                          "anim": {
                              "enable": false,
                              "speed": 1,
-                             "opacity_min": 0.1,
+                             "opacity_min": 0.8,
                              "sync": false
                          }
                      },
                      "size": {
-                         "value": 15,
+                         "value": 12,
                          "random": true,
                          "anim": {
                              "enable": false,
@@ -57,7 +57,7 @@ export default class IndexPage extends React.Component {
                      },
                      "move": {
                          "enable": true,
-                         "speed": 2,
+                         "speed": 1.5,
                          "direction": "none",
                          "random": false,
                          "straight": false,
