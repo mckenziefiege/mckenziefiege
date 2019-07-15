@@ -1,25 +1,24 @@
+// FONTS
 @textFont: 'Open Sans', sans-serif;
 @headingFont: 'DM Serif Display', serif;
 
-// colors
-// #FE6959
-// #FAA275
+// COLORS
+@textColor: #323638;
+@backgroundColor: #fff;
+@nameGradient-1: #FE6959;
+@nameGradient-2: #FF9000;
+@mediaHover: #ACF39D;
 
 canvas {
   position: absolute;
     z-index: -1;
-    background-color: white;
+    background-color: @backgroundColor;
 }
 
 body {
   margin: 0;
-  color: #323638;
+  color: @textColor;
   cursor: default;
-}
-
-a {
-  text-decoration: none;
-  color: #323638;
 }
 
 .index-page {
@@ -54,8 +53,8 @@ a {
     font-family: @headingFont;
     letter-spacing: 5px;
     background-image: linear-gradient(45deg,
-                   #FE6959,
-                   #FF9000);
+                   @nameGradient-1,
+                   @nameGradient-2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   }
@@ -74,18 +73,18 @@ a {
 .media-svg {
   height: 45px;
   width: 45px;
-  margin: 10px;
+  margin: 0 10px;
   transition: all .4s;
-  fill: #323638;
+  fill: @textColor;
 
   &:hover {
-    fill: #ACF39D;
+    fill: @mediaHover;
     transform: scale(1.2);
   }
 }
 
 .media-links {
-
+  margin-top: 25px;
 }
 
 .about {
@@ -94,9 +93,9 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 30px;
     width: 950px;
     margin: 0 auto;
+    padding: 10px 0;
   }
 
   &__description {
@@ -146,7 +145,6 @@ a {
   &__page {
     display: flex;
     justify-content: center;
-    // align-items: center;
     padding: 20px;
   }
 
@@ -179,7 +177,6 @@ a {
     margin: 20px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   }
-
 }
 
 .row {
@@ -191,11 +188,54 @@ a {
   flex: 50%;
   padding: 10px;
 
+  & > div {
+    transition: all .5s;
+    margin-top: 20px;
+
+    &:hover {
+      transform: scale(.98);
+    }
+  }
 
   &__img {
     vertical-align: middle;
-      width: 100%;
-      margin: 20px;
-      cursor: pointer;
+    width: 100%;
+    cursor: pointer;
   }
 }
+
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility: hidden;
+           backface-visibility: hidden;
+ 	position: relative;
+  transition: 0.5s color ease;
+ 	text-decoration: none;
+ 	color: @textColor;
+ }
+
+ a:hover {
+   color:#4ECDC4;
+ }
+
+ a.after:after {
+   content: "";
+   transition: 0.5s all ease;
+   -webkit-backface-visibility: hidden;
+           backface-visibility: hidden;
+   position: absolute;
+ }
+
+ a.after:after {
+   bottom: -0.25em;
+   height: 3px;
+   width: 0;
+   background: #4ECDC4;
+ }
+
+ a.first:after {
+   left: 0;
+ }
+
+ a.after:hover:after{
+   width: 100%;
+ }

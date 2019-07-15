@@ -14,13 +14,13 @@ export default class IndexPage extends React.Component {
              params={{
                  "particles": {
                      "number": {
-                         "value": 30,
+                         "value": 35,
                          "density": {
                              "enable": true
                          }
                      },
                      "color": {
-                         "value": ["#FF9000", "#ACF39D", "#FE6959"]
+                         "value": ["#FF9000", "#ACF39D", "#FE6959", "#4ECDC4"]
                      },
                      "shape": {
                          "type": "circle",
