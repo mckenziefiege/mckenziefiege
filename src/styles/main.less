@@ -137,11 +137,6 @@ a {
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  // grid-auto-flow: column;
-  grid-gap: 10px;
-  align-items: center;
 
 }
 
@@ -150,9 +145,16 @@ a {
 
   &__page {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
+    padding: 20px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
   }
 
   &__title {
@@ -162,8 +164,6 @@ a {
   }
 
   &__description {
-    width: 550px;
-    text-align: center;
     line-height: 35px;
   }
 
@@ -173,5 +173,29 @@ a {
 
   &__github {
 
+  }
+
+  &__image {
+    margin: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  }
+
+}
+
+.row {
+  display: flex;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+
+
+  &__img {
+    vertical-align: middle;
+      width: 100%;
+      margin: 20px;
+      cursor: pointer;
   }
 }

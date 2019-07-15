@@ -19,13 +19,15 @@ class Project extends Component {
       <div className="project">
         <NavBar />
         <div className="project__page">
+          <div className="project__container">
           <h1 className="project__title">{image.title}</h1>
-          <p className="project__description">{image.description}</p>
+          <a className="project__github" href={image.github}>Github</a>
           <div className="project__tech">
             {techUsed}
           </div>
-          <a className="project__github" href={image.github}>Github</a>
-          <Image src={image.src}/>
+          <p className="project__description">{image.description}</p>
+          </div>
+          <Image className="project__image" src={image.src}/>
         </div>
       </div>
     )
