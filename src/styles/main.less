@@ -213,12 +213,16 @@ body {
   &__image {
     margin: 20px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    transition: all .5s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 
 .row {
   display: flex;
-  padding: 0 4px;
 }
 
 .column {
@@ -226,6 +230,7 @@ body {
   padding: 10px;
 
   & > a {
+    display: block;
     transition: all .5s;
     margin-top: 20px;
 
