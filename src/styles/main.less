@@ -11,8 +11,8 @@
 
 canvas {
   position: absolute;
-    z-index: -1;
-    background-color: @backgroundColor;
+  z-index: -1;
+  background-color: @backgroundColor;
 }
 
 body {
@@ -214,7 +214,7 @@ a,a:visited,a:hover,a:active{
  }
 
  a:hover {
-   color:#4ECDC4;
+   color: @mediaHover;
  }
 
  a.after:after {
@@ -229,7 +229,7 @@ a,a:visited,a:hover,a:active{
    bottom: -0.25em;
    height: 3px;
    width: 0;
-   background: #4ECDC4;
+   background: @mediaHover;
  }
 
  a.first:after {

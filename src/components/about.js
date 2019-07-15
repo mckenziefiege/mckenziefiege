@@ -9,9 +9,7 @@ const About = ({ data }) => (
     <div className="about__hero-and-links">
       <HomeHero />
       <MediaLinks links={data.media}/>
-    
     </div>
-
 
     <div className="about__flex">
       <h2 className="about__title">about me</h2>
