@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Link from 'gatsby-link';
 
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 import NavBar from '../components/navBar.js';
 import Image from '../components/image.js';
@@ -10,8 +10,11 @@ import Image from '../components/image.js';
 const ProjectImage = ({node}) => {
 
   return (
-    <div>
-      <Link key={node.slug} to={node.slug}><Image src={node.src}/></Link>
+    <div className="container">
+      <Link className="image" key={node.slug} to={node.slug}><Image src={node.src}/></Link>
+      <div className="overlay">
+        <div className="text">{node.title}</div>
+      </div>
     </div>
   );
 };
@@ -20,21 +23,21 @@ const Projects = ({data}) => (
   <div>
     <NavBar />
     <div className="projects row">
-      <Slide left>
+      <Fade left>
         <div className="column">
           {data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
         </div>
-      </Slide>
+      </Fade>
 
       <div className="column">
         {data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 6) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
       </div>
 
-      <Slide right>
+      <Fade right>
         <div className="column">
           {data.allProjectsJson.edges.map((edge, i) => i >= 6 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
         </div>
-      </Slide>
+      </Fade>
     </div>
   </div>
 );

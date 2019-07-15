@@ -118,11 +118,11 @@ body {
       font-family: @headingFont;
 
       background:
-         -webkit-linear-gradient(@nameGradient-2 0%, @nameGradient-1 100%);
+         -webkit-linear-gradient(@nameGradient-2 0%, @nameGradient-2 100%);
       background:
-         -o-linear-gradient(@nameGradient-2 0%, @nameGradient-1 100%);
+         -o-linear-gradient(@nameGradient-2 0%, @nameGradient-2 100%);
       background:
-         linear-gradient(@nameGradient-2 0%, @nameGradient-1 100%);;
+         linear-gradient(@nameGradient-2 0%, @nameGradient-2 100%);;
       background-position: 0 100%;
       background-repeat: repeat-x;
       background-size: 0px 0px;
@@ -272,3 +272,47 @@ a,a:visited,a:hover,a:active{
  a.after:hover:after{
    width: 100%;
  }
+
+
+
+
+
+
+ .container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #4ECDC4;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  font-family: @textFont;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}

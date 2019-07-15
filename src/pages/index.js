@@ -15,7 +15,7 @@ export default class IndexPage extends React.Component {
            params={{
                "particles": {
                    "number": {
-                     "value": 35,
+                     "value": 40,
                      "density": {
                        "enable": true
                      }
