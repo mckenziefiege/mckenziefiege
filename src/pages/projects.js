@@ -2,6 +2,8 @@ import React from "react";
 import { graphql } from "gatsby";
 import Link from 'gatsby-link';
 
+import Slide from 'react-reveal/Slide';
+
 import NavBar from '../components/navBar.js';
 import Image from '../components/image.js';
 
@@ -18,15 +20,21 @@ const Projects = ({data}) => (
   <div>
     <NavBar />
     <div className="projects row">
-      <div className="column">
-        {data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
-      </div>
+      <Slide left>
+        <div className="column">
+          {data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
+        </div>
+      </Slide>
+
       <div className="column">
         {data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 6) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
       </div>
-      <div className="column">
-        {data.allProjectsJson.edges.map((edge, i) => i >= 6 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
-      </div>
+
+      <Slide right>
+        <div className="column">
+          {data.allProjectsJson.edges.map((edge, i) => i >= 6 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
+        </div>
+      </Slide>
     </div>
   </div>
 );

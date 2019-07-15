@@ -1,5 +1,7 @@
 import React from "react"
 
+import Fade from 'react-reveal/Fade';
+
 import About from '../components/about.js'
 import NavBar from '../components/navBar.js'
 import Particles from 'react-particles-js';
@@ -110,8 +112,10 @@ export default class IndexPage extends React.Component {
                },
                "retina_detect": true
              }} />
+      <Fade>
         <NavBar />
         <About />
+      </Fade>
       </div>
     )
   }

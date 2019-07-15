@@ -13,7 +13,7 @@ class Project extends Component {
 
     const image = arr.find(obj => obj.node.slug === slug).node
 
-    const techUsed = image.technology_used.map((tech, i) => <p>{tech} {image.technology_used.length - 1 !== i ? "|" : ""}</p>)
+    const techUsed = image.technology_used.map((tech, i) => <p className="project__tech--item">{tech}</p>)
 
     return (
       <div className="project">
@@ -21,7 +21,7 @@ class Project extends Component {
         <div className="project__page">
           <div className="project__container">
           <h1 className="project__title">{image.title}</h1>
-          <a className="project__github" href={image.github}>Github</a>
+          {image.github !== null && <a className="project__github first after" href={image.github}>Github</a>}
           <div className="project__tech">
             {techUsed}
           </div>
