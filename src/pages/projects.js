@@ -10,12 +10,14 @@ import Image from '../components/image.js';
 const ProjectImage = ({node}) => {
 
   return (
-    <div className="container">
-      <Link className="image" key={node.slug} to={node.slug}><Image src={node.src}/></Link>
-      <div className="overlay">
-        <div className="text">{node.title}</div>
+    <Link key={node.slug} to={node.slug}>
+      <div className="container">
+        <Image className="image" src={node.src}/>
+        <div className="overlay">
+          <div className="text">{node.title}</div>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
