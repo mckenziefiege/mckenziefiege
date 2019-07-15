@@ -2,7 +2,7 @@
   {
     "type": "Personal",
     "title": "Novel Finds",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "This app exists to give book lovers a place to keep track of what they've read or what they want to read. For those that want to join a book club to connect with other book lovers, users can create and join book clubs.",
     "technology_used": [
       "React",
       "Redux",
@@ -17,7 +17,7 @@
   {
     "type": "Personal",
     "title": "Plant Diary",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Plant Diary is designed to keep track of your house plants. Users can create an account and submit information about each of their plants. This application is made for plant lovers who need an easier way of keeping track of the plants in their home.",
     "technology_used": [
       "Ruby on Rails",
       "CSS"
@@ -29,7 +29,7 @@
   {
     "type": "Personal",
     "title": "Turbo Typing",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Turbo typing is a speed typing test that measures speed and accuracy with three different levels of prompt difficulty.",
     "technology_used": [
       "JavaScript",
       "Ruby on Rails",
@@ -38,6 +38,20 @@
     "src": "projects/turbotyping1.png",
     "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
     "slug": "turbo-typing"
+  },
+  {
+    "type": "Professional",
+    "title": "Video Queue Prototype",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology_used": [
+      "JavaScript",
+      "Less",
+      "JW Player",
+      "jQuery"
+    ],
+    "src": "projects/player-queue.png",
+    "github": null,
+    "slug": "video-queue-prototype"
   },
   {
     "type": "Professional",
@@ -64,20 +78,6 @@
     "src": "projects/article-matching.png",
     "github": null,
     "slug": "article-matching-demo"
-  },
-  {
-    "type": "Professional",
-    "title": "Video Queue Prototype",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology_used": [
-      "JavaScript",
-      "Less",
-      "JW Player",
-      "jQuery"
-    ],
-    "src": "projects/player-queue.png",
-    "github": null,
-    "slug": "video-queue-prototype"
   },
   {
     "type": "Professional",
