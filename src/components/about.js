@@ -15,10 +15,10 @@ const About = ({ data }) => (
       <p className="about__description">{data.description}</p>
     </div>
     <div className="about__flex">
+      <h2 className="about__title">technical skills</h2>
       <div className="about__skills">
         {data.skills.map(skill => <span className="about__skill" key={skill}>{skill}</span>)}
       </div>
-      <h2 className="about__title">technical skills</h2>
     </div>
   </div>
 )

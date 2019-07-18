@@ -23,9 +23,9 @@ body {
 }
 
 .index-page {
-  height: 100vh;
-  width: 100vw;
-  overflow-y: hidden;
+  // height: 100vh;
+  // width: 100vw;
+  // overflow-y: hidden;
 }
 
 .nav {
@@ -89,6 +89,7 @@ body {
 }
 
 .about {
+  height: 100vh;
 
   &__flex {
     display: flex;
@@ -97,10 +98,6 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 10px 0;
-
-    &:last-child {
-      // border-top: 4px dashed @blue;
-    }
   }
 
   &__description {
@@ -108,6 +105,7 @@ body {
     font-family: @textFont;
     line-height: 35px;
     font-weight: bold;
+    text-align: right;
   }
 
   &__hero-and-links {
