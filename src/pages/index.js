@@ -1,10 +1,47 @@
 import React from "react"
 
 import Fade from 'react-reveal/Fade';
-
+import Link from 'gatsby-link';
+import Image from '../components/image.js';
 import About from '../components/about.js'
-import NavBar from '../components/navBar.js'
 import Particles from 'react-particles-js';
+
+const ProjectImage = ({node}) => {
+
+  return (
+    <Link key={node.slug} to={node.slug}>
+      <div className="container">
+        <Image className="image" src={node.src}/>
+        <div className="overlay">
+          <div className="text">{node.title}</div>
+        </div>
+      </div>
+    </Link>
+  );
+};
+
+const Projects = (data) => (
+
+  <div>
+    <div className="projects row">
+      <Fade left>
+        <div className="column">
+          {data.data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
+        </div>
+      </Fade>
+
+      <div className="column">
+        {data.data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 6) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
+      </div>
+
+      <Fade right>
+        <div className="column">
+          {data.data.allProjectsJson.edges.map((edge, i) => i >= 6 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
+        </div>
+      </Fade>
+    </div>
+  </div>
+);
 
 export default class IndexPage extends React.Component {
 
@@ -113,10 +150,29 @@ export default class IndexPage extends React.Component {
                "retina_detect": true
              }} />
       <Fade>
-        <NavBar />
         <About />
+        <Projects data={this.props.data}/>
       </Fade>
-      </div>
+    </div>
     )
   }
 };
+
+
+export const pageQuery = graphql`
+  query MyQuery {
+    allProjectsJson {
+  		edges {
+  			node {
+  				title
+          description
+          technology_used
+          type
+          github
+          slug
+          src
+        }
+      }
+    }
+  }
+`;
