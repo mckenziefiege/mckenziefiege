@@ -1,8 +1,84 @@
 [
   {
+    "type": "Professional",
+    "title": "Developer Site Redesign",
+    "description": "This project is a prototype for the new JW Player Developer site. It was created using JavaScript, Less and HTML. Features include a pure CSS code snippet typing animation as well as responsive design. ",
+    "technology_used": [
+      "JavaScript",
+      "Less",
+      "HTML"
+    ],
+    "src": "projects/developer-redesign.png",
+    "github": null,
+    "slug": "developer-site-redesign"
+  },
+  {
+    "type": "Professional",
+    "title": "Segment Dictionary",
+    "description": "Segment dictionary is an interactive tool to look up segment information using the company API. This project was built using React and Less. Users can type multiple segments into the text input. Segment data is fetched from API when clicking the “Get Definitions” button. ",
+    "technology_used": [
+      "React",
+      "Less"
+    ],
+    "src": "projects/segment-dictionary.png",
+    "github": null,
+    "slug": "segment-dictionary"
+  },
+  {
+    "type": "Professional",
+    "title": "Video Queue Prototype",
+    "description": "This project was created to test the potential queue functionality of the player because it doesn’t currently have this built in functionality. This project is built with Javascript and jQuery to handle the drag and drop events. Users can search through playlists, add videos within each playlist to the queue, drag and drop queue items to rearrange the order, delete queue items, and click queue item thumbnails to immediately play video. Full screen mode of the player also contains a mini queue to see videos coming up. This project is currently live on JW Player’s Developer site. ",
+    "technology_used": [
+      "JavaScript",
+      "Less",
+      "JW Player",
+      "jQuery"
+    ],
+    "src": "projects/player-queue.png",
+    "github": null,
+    "slug": "video-queue-prototype"
+  },
+  {
+    "type": "Personal",
+    "title": "Plant Diary",
+    "description": "Plant Diary is designed for plant lovers that need a simple solution for keeping track of their house plants. Users can create an account and submit information about each of their plants. For this project, I applied RESTful routes in Rails and an MVC pattern which handles CRUD actions. This application also utilizes browser cookies and sessions to allow users to login and sign-up. Additional features include a plant related to-do list, comment sections for each plant to document the life of your plant, the ability to update information about a plant, delete a plant, and a search bar to search through your plants by species.",
+    "technology_used": [
+      "Ruby on Rails",
+      "CSS"
+    ],
+    "src": "projects/plantdiary2.png",
+    "github": "https://github.com/mckenziefiege/plant_diary",
+    "slug": "plant-diary"
+  },
+  {
+    "type": "Professional",
+    "title": "Company Site Case Study Page",
+    "description": "At JW Player, I contributed to building pages for our new company site. This screenshot is one of the pages I contributed to building. The new company site is built using Next.js, GraphQl, React, and Less. For this page, data was retrieved from the Prismic CMS using GraphQL. Each feature on this page is a reusable react component styled with Less.",
+    "technology_used": [
+      "GraphQL",
+      "React",
+      "Less"
+    ],
+    "src": "projects/companysite1.png",
+    "github": null,
+    "slug": "company-site-page"
+  },
+  {
+    "type": "Professional",
+    "title": "Video Profile Tool",
+    "description": "This Video Profile Tool was built with React and Less. Users can select video media ID’s from a dropdown list or insert their own media ID into the search input. Charts and text areas are populated with metadata fetched from a JW Player API when users click “Get MetaData” button. ",
+    "technology_used": [
+      "React",
+      "Less"
+    ],
+    "src": "projects/video-profile-tool.png",
+    "github": null,
+    "slug": "video-profile-tool"
+  },
+  {
     "type": "Personal",
     "title": "Novel Finds",
-    "description": "This app exists to give book lovers a place to keep track of what they've read or what they want to read. For those that want to join a book club to connect with other book lovers, users can create and join book clubs.",
+    "description": "This app exists to give book lovers a place to keep track of what they've read or want to read. Users can create and join book clubs to connect with fellow book lovers. By fetching data from the Google Books API, users can also search for specific titles to add to their reading wish list. Novel Finds was built with a React front end and utilizes Redux as the state management tool. Users have the ability to login and sign-up with HWT token and bCrypt authorization.",
     "technology_used": [
       "React",
       "Redux",
@@ -15,48 +91,9 @@
     "slug": "novel-finds"
   },
   {
-    "type": "Personal",
-    "title": "Plant Diary",
-    "description": "Plant Diary is designed to keep track of your house plants. Users can create an account and submit information about each of their plants. This application is made for plant lovers who need an easier way of keeping track of the plants in their home.",
-    "technology_used": [
-      "Ruby on Rails",
-      "CSS"
-    ],
-    "src": "projects/plantdiary2.png",
-    "github": "https://github.com/mckenziefiege/plant_diary",
-    "slug": "plant-diary"
-  },
-  {
-    "type": "Personal",
-    "title": "Turbo Typing",
-    "description": "Turbo typing is a speed typing test that measures speed and accuracy with three different levels of prompt difficulty.",
-    "technology_used": [
-      "JavaScript",
-      "Ruby on Rails",
-      "CSS"
-    ],
-    "src": "projects/turbotyping1.png",
-    "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
-    "slug": "turbo-typing"
-  },
-  {
-    "type": "Professional",
-    "title": "Video Queue Prototype",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology_used": [
-      "JavaScript",
-      "Less",
-      "JW Player",
-      "jQuery"
-    ],
-    "src": "projects/player-queue.png",
-    "github": null,
-    "slug": "video-queue-prototype"
-  },
-  {
     "type": "Professional",
     "title": "Data Visualization",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "This Data Visualization project was created as a way to display company data in a fun and interactive way. The charts are built using D3.js, React, and Less. The data used to populate the charts is fetched from a company API.",
     "technology_used": [
       "React",
       "Less",
@@ -69,7 +106,7 @@
   {
     "type": "Professional",
     "title": "Article Matching Demo",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "This Article Matching Demo was created demonstrate JW Player’s Article Matching technology. Based on the article, a playlist of videos is created. Below the player, there are clickable thumbnails displayed based on article matching. This project was built with JavaScript, JW Player, and Less. ",
     "technology_used": [
       "JavaScript",
       "Less",
@@ -80,40 +117,16 @@
     "slug": "article-matching-demo"
   },
   {
-    "type": "Professional",
-    "title": "Segment Dictionary",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology_used": [
-      "React",
-      "Less"
-    ],
-    "src": "projects/segment-dictionary.png",
-    "github": null,
-    "slug": "segment-dictionary"
-  },
-  {
-    "type": "Professional",
-    "title": "Developer Site Redesign",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "type": "Personal",
+    "title": "Turbo Typing",
+    "description": "Turbo typing is a timed typing game that measures speed and accuracy with three different levels of prompt difficulty. Turbo Typing is built with a vanilla JavaScript frontend to handle user typing events as well as a Rails backend API to fetch typing prompts and persist user’s scores.",
     "technology_used": [
       "JavaScript",
-      "Less",
-      "HTML"
+      "Ruby on Rails",
+      "CSS"
     ],
-    "src": "projects/developer-redesign.png",
-    "github": null,
-    "slug": "developer-site-redesign"
-  },
-  {
-    "type": "Professional",
-    "title": "Video Profile Tool",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology_used": [
-      "React",
-      "Less"
-    ],
-    "src": "projects/video-profile-tool.png",
-    "github": null,
-    "slug": "video-profile-tool"
+    "src": "projects/turbotyping1.png",
+    "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
+    "slug": "turbo-typing"
   }
 ]

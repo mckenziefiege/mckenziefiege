@@ -22,7 +22,6 @@ const ProjectImage = ({node}) => {
 
 const Projects = (data) => (
 
-  <div>
     <div className="projects row">
       <Fade left>
         <div className="column">
@@ -31,16 +30,15 @@ const Projects = (data) => (
       </Fade>
 
       <div className="column">
-        {data.data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 6) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
+        {data.data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 7) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
       </div>
 
       <Fade right>
         <div className="column">
-          {data.data.allProjectsJson.edges.map((edge, i) => i >= 6 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
+          {data.data.allProjectsJson.edges.map((edge, i) => i >= 7 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
         </div>
       </Fade>
     </div>
-  </div>
 );
 
 export default class IndexPage extends React.Component {
@@ -151,7 +149,9 @@ export default class IndexPage extends React.Component {
              }} />
       <Fade>
         <About />
-        <Projects data={this.props.data}/>
+        <div className="projects-container">
+          <Projects data={this.props.data}/>
+        </div>
       </Fade>
     </div>
     )
