@@ -22,10 +22,6 @@ body {
   cursor: default;
 }
 
-.index-page {
-
-}
-
 .nav {
   display: flex;
   justify-content: center;
@@ -48,12 +44,13 @@ body {
 
   &__name {
     margin: 5px;
-    font-size: 60px;
+    font-size: 55px;
     font-family: @headingFont;
     letter-spacing: 5px;
+    // color: @blue;
     background-image: linear-gradient(45deg,
-                   @nameGradient-1,
-                   @nameGradient-2);
+                   @nameGradient-2,
+                   @nameGradient-1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -70,8 +67,8 @@ body {
 }
 
 .media-svg {
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   margin: 0 10px;
   transition: all .4s;
   fill: @textColor;
@@ -91,18 +88,19 @@ body {
 
   &__flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 20px 0;
   }
 
   &__description {
-    width: 650px;
+    width: 700px;
+    font-size: 17px;
     font-family: @textFont;
-    line-height: 35px;
-    font-weight: bold;
+    line-height: 32px;
+    font-weight: bolder;
     text-align: center;
   }
 
@@ -114,7 +112,7 @@ body {
   }
 
   &__title {
-      font-size: 30px;
+      font-size: 35px;
       font-family: @headingFont;
       background:
          -webkit-linear-gradient(@nameGradient-2 0%, @nameGradient-2 100%);
@@ -141,6 +139,7 @@ body {
 
   &__skill {
     margin: 10px;
+    font-size: 17px;
     font-family: @textFont;
     font-weight: bold;
     transition: all .2s;
@@ -150,10 +149,6 @@ body {
       color: @nameGradient-2;
     }
   }
-}
-
-.project-image {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .project {
@@ -219,27 +214,15 @@ body {
 
 .row {
   display: flex;
-  margin-top: 500px;
 }
 
 .column {
-  flex: 50%;
-  padding: 10px;
+  padding: 0 20px;
 
   & > a {
     display: block;
-    transition: all .5s;
+    transition: all 1s;
     margin-top: 20px;
-
-    &:hover {
-      transform: scale(.98);
-    }
-  }
-
-  &__img {
-    vertical-align: middle;
-    width: 100%;
-    cursor: pointer;
   }
 }
 
@@ -279,12 +262,6 @@ a,a:visited,a:hover,a:active{
   position: relative;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay {
   position: absolute;
   bottom: 0;
@@ -313,4 +290,14 @@ a,a:visited,a:hover,a:active{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
+}
+
+.projects-container {
+  width: 90vw;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.image {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }

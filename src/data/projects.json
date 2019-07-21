@@ -13,19 +13,30 @@
     "slug": "developer-site-redesign"
   },
   {
-    "type": "Personal",
-    "title": "Novel Finds",
-    "description": "This app exists to give book lovers a place to keep track of what they've read or want to read. Users can create and join book clubs to connect with fellow book lovers. By fetching data from the Google Books API, users can also search for specific titles to add to their reading wish list. Novel Finds was built with a React front end and utilizes Redux as the state management tool. Users have the ability to login and sign-up with HWT token and bCrypt authorization.",
+    "type": "Professional",
+    "title": "Segment Dictionary",
+    "description": "Segment dictionary is an interactive tool to look up segment information using the company API. This project was built using React and Less. Users can type multiple segments into the text input. Segment data is fetched from API when clicking the “Get Definitions” button. ",
     "technology_used": [
       "React",
-      "Redux",
-      "Google Books API",
-      "Ruby on Rails",
-      "CSS"
+      "Less"
     ],
-    "src": "projects/bookclub2.png",
-    "github": "https://github.com/mckenziefiege/book_club_frontend",
-    "slug": "novel-finds"
+    "src": "projects/segment-dictionary.png",
+    "github": null,
+    "slug": "segment-dictionary"
+  },
+  {
+    "type": "Professional",
+    "title": "Video Queue Prototype",
+    "description": "This project was created to test the potential queue functionality of the player because it doesn’t currently have this built in functionality. This project is built with Javascript and jQuery to handle the drag and drop events. Users can search through playlists, add videos within each playlist to the queue, drag and drop queue items to rearrange the order, delete queue items, and click queue item thumbnails to immediately play video. Full screen mode of the player also contains a mini queue to see videos coming up. This project is currently live on JW Player’s Developer site. ",
+    "technology_used": [
+      "JavaScript",
+      "Less",
+      "JW Player",
+      "jQuery"
+    ],
+    "src": "projects/player-queue.png",
+    "github": null,
+    "slug": "video-queue-prototype"
   },
   {
     "type": "Personal",
@@ -38,19 +49,6 @@
     "src": "projects/plantdiary2.png",
     "github": "https://github.com/mckenziefiege/plant_diary",
     "slug": "plant-diary"
-  },
-  {
-    "type": "Personal",
-    "title": "Turbo Typing",
-    "description": "Turbo typing is a timed typing game that measures speed and accuracy with three different levels of prompt difficulty. Turbo Typing is built with a vanilla JavaScript frontend to handle user typing events as well as a Rails backend API to fetch typing prompts and persist user’s scores.",
-    "technology_used": [
-      "JavaScript",
-      "Ruby on Rails",
-      "CSS"
-    ],
-    "src": "projects/turbotyping1.png",
-    "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
-    "slug": "turbo-typing"
   },
   {
     "type": "Professional",
@@ -67,17 +65,30 @@
   },
   {
     "type": "Professional",
-    "title": "Video Queue Prototype",
-    "description": "This project was created to test the potential queue functionality of the player because it doesn’t currently have this built in functionality. This project is built with Javascript and jQuery to handle the drag and drop events. Users can search through playlists, add videos within each playlist to the queue, drag and drop queue items to rearrange the order, delete queue items, and click queue item thumbnails to immediately play video. Full screen mode of the player also contains a mini queue to see videos coming up. This project is currently live on JW Player’s Developer site. ",
+    "title": "Video Profile Tool",
+    "description": "This Video Profile Tool was built with React and Less. Users can select video media ID’s from a dropdown list or insert their own media ID into the search input. Charts and text areas are populated with metadata fetched from a JW Player API when users click “Get MetaData” button. ",
     "technology_used": [
-      "JavaScript",
-      "Less",
-      "JW Player",
-      "jQuery"
+      "React",
+      "Less"
     ],
-    "src": "projects/player-queue.png",
+    "src": "projects/video-profile-tool.png",
     "github": null,
-    "slug": "video-queue-prototype"
+    "slug": "video-profile-tool"
+  },
+  {
+    "type": "Personal",
+    "title": "Novel Finds",
+    "description": "This app exists to give book lovers a place to keep track of what they've read or want to read. Users can create and join book clubs to connect with fellow book lovers. By fetching data from the Google Books API, users can also search for specific titles to add to their reading wish list. Novel Finds was built with a React front end and utilizes Redux as the state management tool. Users have the ability to login and sign-up with HWT token and bCrypt authorization.",
+    "technology_used": [
+      "React",
+      "Redux",
+      "Google Books API",
+      "Ruby on Rails",
+      "CSS"
+    ],
+    "src": "projects/bookclub2.png",
+    "github": "https://github.com/mckenziefiege/book_club_frontend",
+    "slug": "novel-finds"
   },
   {
     "type": "Professional",
@@ -106,27 +117,16 @@
     "slug": "article-matching-demo"
   },
   {
-    "type": "Professional",
-    "title": "Segment Dictionary",
-    "description": "Segment dictionary is an interactive tool to look up segment information using the company API. This project was built using React and Less. Users can type multiple segments into the text input. Segment data is fetched from API when clicking the “Get Definitions” button. ",
+    "type": "Personal",
+    "title": "Turbo Typing",
+    "description": "Turbo typing is a timed typing game that measures speed and accuracy with three different levels of prompt difficulty. Turbo Typing is built with a vanilla JavaScript frontend to handle user typing events as well as a Rails backend API to fetch typing prompts and persist user’s scores.",
     "technology_used": [
-      "React",
-      "Less"
+      "JavaScript",
+      "Ruby on Rails",
+      "CSS"
     ],
-    "src": "projects/segment-dictionary.png",
-    "github": null,
-    "slug": "segment-dictionary"
-  },
-  {
-    "type": "Professional",
-    "title": "Video Profile Tool",
-    "description": "This Video Profile Tool was built with React and Less. Users can select video media ID’s from a dropdown list or insert their own media ID into the search input. Charts and text areas are populated with metadata fetched from a JW Player API when users click “Get MetaData” button. ",
-    "technology_used": [
-      "React",
-      "Less"
-    ],
-    "src": "projects/video-profile-tool.png",
-    "github": null,
-    "slug": "video-profile-tool"
+    "src": "projects/turbotyping1.png",
+    "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
+    "slug": "turbo-typing"
   }
 ]
