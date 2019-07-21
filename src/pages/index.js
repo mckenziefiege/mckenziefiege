@@ -23,7 +23,7 @@ const ProjectImage = ({node}) => {
 const Projects = (data) => (
 
   <div>
-    <div className="projects row">
+    <div id="#projects"className="projects row">
       <Fade left>
         <div className="column">
           {data.data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
@@ -151,6 +151,7 @@ export default class IndexPage extends React.Component {
              }} />
       <Fade>
         <About />
+        <a href="#projects"><button>check out my projects</button></a>
         <Projects data={this.props.data}/>
       </Fade>
     </div>

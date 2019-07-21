@@ -26,8 +26,8 @@ module.exports = {
       options: {
         fonts: [
           `DM Serif Display`,
-          `Lato`,
           `Open Sans`,
+          `Karla`,
           `source sans pro\:300,400,400i,700`
         ],
         display: 'swap'
