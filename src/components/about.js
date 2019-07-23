@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import MediaLinks from './mediaLinks.js'
 import HomeHero from './homeHero.js'
+import Arrow from './arrow.js'
 
 const About = ({ data }) => (
   <div className="about">
@@ -20,6 +21,7 @@ const About = ({ data }) => (
         {data.skills.map(skill => <span className="about__skill" key={skill}>{skill}</span>)}
       </div>
     </div>
+    <Arrow />
   </div>
 )
 
