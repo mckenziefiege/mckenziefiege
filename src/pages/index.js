@@ -1,6 +1,6 @@
 import React from "react"
 
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import Link from 'gatsby-link';
 import Image from '../components/image.js';
 import About from '../components/about.js'
@@ -23,21 +23,21 @@ const ProjectImage = ({node}) => {
 const Projects = (data) => (
 
     <div className="projects row">
-      <Fade left>
+
         <div className="column">
           {data.data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
         </div>
-      </Fade>
+      
 
       <div className="column">
         {data.data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 7) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
       </div>
 
-      <Fade right>
+
         <div className="column">
           {data.data.allProjectsJson.edges.map((edge, i) => i >= 7 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
         </div>
-      </Fade>
+
     </div>
 );
 
@@ -147,12 +147,12 @@ export default class IndexPage extends React.Component {
                },
                "retina_detect": true
              }} />
-      <Fade>
+
         <About />
         <div className="projects-container">
           <Projects data={this.props.data}/>
         </div>
-      </Fade>
+
     </div>
     )
   }

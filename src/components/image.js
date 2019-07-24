@@ -10,9 +10,9 @@ const Image = ({ src, ...props }) => {
         nodes {
           relativePath
           childImageSharp {
-            fixed {
-              ...GatsbyImageSharpFixed
-            }
+            fluid(maxWidth: 540) {
+               ...GatsbyImageSharpFluid
+             }
           }
         }
       }
@@ -20,13 +20,13 @@ const Image = ({ src, ...props }) => {
   `)
 
   const match = useMemo(() => (
-    data.allFile.nodes.find(({ relativePath }) => src === relativePath)
-  ), [ data, src ]);
+      data.allFile.nodes.find(({ relativePath }) => src === relativePath)
+    ), [ data, src ]);
 
-  const fixed = safeGet(match, 'childImageSharp.fixed');
+  const fluid = safeGet(match, 'childImageSharp.fluid');
 
-  return fixed ? (
-    <Img className="project-image" fixed={fixed} {...props} />
+  return fluid ? (
+    <Img className="project-image" fluid={fluid} {...props} />
   ) : null
 }
 
