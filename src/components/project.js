@@ -29,7 +29,7 @@ class Project extends Component {
             </div>
             <p className="project__description">{image.description}</p>
             </div>
-            <Image className="project__image" src={image.src}/>
+            <div className="project__image-cont"><Image className="project__image" src={image.src}/></div>
           </div>
         </Fade>
       </div>
