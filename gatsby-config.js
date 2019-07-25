@@ -22,6 +22,17 @@ module.exports = {
        },
      },
      {
+       resolve: `gatsby-plugin-manifest`,
+       options: {
+         name: `mckenziefiege`,
+         short_name: `mckenziefiege`,
+         start_url: `/`,
+         background_color: `#FFFFFF`,
+         theme_color: `#FFFFFF`,
+         icon: `src/images/iconmonstr-laptop-4.svg`,
+       },
+     },
+     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
