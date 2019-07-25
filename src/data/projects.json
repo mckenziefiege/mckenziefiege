@@ -128,5 +128,19 @@
     "src": "projects/turbotyping1.png",
     "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
     "slug": "turbo-typing"
+  },
+  {
+    "type": "Personal",
+    "title": "Dia.log()",
+    "description": "This app is designed to increase the accessibility of the National Diabetic Prevention Program for pre-diabetic adults to reduce the onset of diabetes by deploying an automated chatbot solution that scales infinitely. A user can interact with a chat bot that has the DPP curriculum, allowing them to learn about preventing diabetes. Created for the Access Labs 1 year anniversary Hackathon. My team won 1st place in the blockstack category.",
+    "technology_used": [
+      "React",
+      "Blockstack",
+      "CSS",
+      "React Simple Chatbot"
+    ],
+    "src": "projects/dialog.png",
+    "github": "https://github.com/jkhaha/hackathon-app",
+    "slug": "dialog"
   }
 ]
