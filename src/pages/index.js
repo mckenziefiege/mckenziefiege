@@ -22,12 +22,12 @@ const ProjectImage = ({node}) => {
 
 const Projects = (data) => (
 
-    <div className="projects row">
+    <div id="projects" className="projects row">
 
         <div className="column">
           {data.data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
         </div>
-      
+
 
       <div className="column">
         {data.data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 7) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
