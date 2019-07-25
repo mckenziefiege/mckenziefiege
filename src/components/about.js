@@ -21,7 +21,7 @@ const About = ({ data }) => (
         {data.skills.map(skill => <span className="about__skill" key={skill}>{skill}</span>)}
       </div>
     </div>
-    <Arrow />
+    <a href="#projects"><Arrow /></a>
   </div>
 )
 

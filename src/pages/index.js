@@ -1,6 +1,5 @@
 import React from "react"
 
-// import Fade from 'react-reveal/Fade';
 import Link from 'gatsby-link';
 import Image from '../components/image.js';
 import About from '../components/about.js'
@@ -22,12 +21,12 @@ const ProjectImage = ({node}) => {
 
 const Projects = (data) => (
 
-    <div className="projects row">
+    <div id="projects" className="projects row">
 
         <div className="column">
           {data.data.allProjectsJson.edges.map((edge, i) => i < 4 && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
         </div>
-      
+
 
       <div className="column">
         {data.data.allProjectsJson.edges.map((edge, i) => (i >= 4 && i < 7) && <ProjectImage className="column__img" key={edge.node.title} node={edge.node} />)}
@@ -152,7 +151,6 @@ export default class IndexPage extends React.Component {
         <div className="projects-container">
           <Projects data={this.props.data}/>
         </div>
-
     </div>
     )
   }
