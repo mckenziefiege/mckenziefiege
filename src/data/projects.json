@@ -10,7 +10,8 @@
     ],
     "src": "projects/developer-redesign.png",
     "github": null,
-    "slug": "developer-site-redesign"
+    "slug": "developer-site-redesign",
+    "live_site": null
   },
   {
     "type": "Professional",
@@ -22,7 +23,8 @@
     ],
     "src": "projects/segment-dictionary.png",
     "github": null,
-    "slug": "segment-dictionary"
+    "slug": "segment-dictionary",
+    "live_site": null
   },
   {
     "type": "Professional",
@@ -36,7 +38,8 @@
     ],
     "src": "projects/player-queue.png",
     "github": null,
-    "slug": "video-queue-prototype"
+    "slug": "video-queue-prototype",
+    "live_site": "https://developer.jwplayer.com/jw-player/demos/innovation/play-queue/"
   },
   {
     "type": "Personal",
@@ -48,7 +51,8 @@
     ],
     "src": "projects/plantdiary2.png",
     "github": "https://github.com/mckenziefiege/plant_diary",
-    "slug": "plant-diary"
+    "slug": "plant-diary",
+    "live_site": null
   },
   {
     "type": "Professional",
@@ -61,7 +65,8 @@
     ],
     "src": "projects/companysite1.png",
     "github": null,
-    "slug": "company-site-page"
+    "slug": "company-site-page",
+    "live_site": null
   },
   {
     "type": "Professional",
@@ -73,7 +78,8 @@
     ],
     "src": "projects/video-profile-tool.png",
     "github": null,
-    "slug": "video-profile-tool"
+    "slug": "video-profile-tool",
+    "live_site": null
   },
   {
     "type": "Personal",
@@ -88,7 +94,8 @@
     ],
     "src": "projects/bookclub2.png",
     "github": "https://github.com/mckenziefiege/book_club_frontend",
-    "slug": "novel-finds"
+    "slug": "novel-finds",
+    "live_site": null
   },
   {
     "type": "Professional",
@@ -101,7 +108,8 @@
     ],
     "src": "projects/data-vis.png",
     "github": null,
-    "slug": "data-visualization"
+    "slug": "data-visualization",
+    "live_site": null
   },
   {
     "type": "Professional",
@@ -114,7 +122,8 @@
     ],
     "src": "projects/article-matching.png",
     "github": null,
-    "slug": "article-matching-demo"
+    "slug": "article-matching-demo",
+    "live_site": null
   },
   {
     "type": "Personal",
@@ -127,7 +136,8 @@
     ],
     "src": "projects/turbotyping1.png",
     "github": "https://github.com/mckenziefiege/turbo-typing-revamped",
-    "slug": "turbo-typing"
+    "slug": "turbo-typing",
+    "live_site": null
   },
   {
     "type": "Personal",
@@ -141,6 +151,7 @@
     ],
     "src": "projects/dialog.png",
     "github": "https://github.com/jkhaha/hackathon-app",
-    "slug": "dialog"
+    "slug": "dialog",
+    "live_site": null
   }
 ]

@@ -23,7 +23,8 @@ class Project extends Component {
           <div className="project__page">
             <div className="project__container">
             <h1 className="project__title">{image.title}</h1>
-            {image.github !== null && <a className="project__github first after" href={image.github}>Github</a>}
+            {image.github !== null && <a className="project__github first after" target="_blank" rel="noopener noreferrer" href={image.github}>Github</a>}
+            {image.live_site !== null && <a className="project__github first after" target="_blank" rel="noopener noreferrer" href={image.live_site}>Live Site</a>}
             <div className="project__tech">
               {techUsed}
             </div>
@@ -51,6 +52,7 @@ export const pageQuery = graphql`
           github
           slug
           src
+          live_site
         }
       }
     }
