@@ -1,6 +1,5 @@
 import React from "react"
 
-// import Fade from 'react-reveal/Fade';
 import Link from 'gatsby-link';
 import Image from '../components/image.js';
 import About from '../components/about.js'
@@ -152,7 +151,6 @@ export default class IndexPage extends React.Component {
         <div className="projects-container">
           <Projects data={this.props.data}/>
         </div>
-
     </div>
     )
   }
