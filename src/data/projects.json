@@ -57,7 +57,7 @@
   {
     "type": "Professional",
     "title": "Company Site Case Study Page",
-    "description": "At JW Player, I contributed to building pages for our new company site. This screenshot is one of the pages I contributed to building. The new company site is built using Next.js, GraphQl, React, and Less. For this page, data was retrieved from the Prismic CMS using GraphQL. Each feature on this page is a reusable react component styled with Less.",
+    "description": "At JW Player, I contributed to building pages for our new company site. This screenshot is one of the pages I contributed to building. The new company site is built using Next.js, GraphQL, React, and Less. For this page, data was retrieved from the Prismic CMS using GraphQL. Each feature on this page is a reusable react component styled with Less.",
     "technology_used": [
       "GraphQL",
       "React",
